@@ -14,7 +14,7 @@ public class ArrayDescription {
             arr[i] = sc.nextInt();
         sc.close();
 
-        int[][] dp = new int[n][m + 2]; //
+        int[][] dp = new int[n][m + 2];
 
         if (arr[0] == 0) {
             for (int i = 1; i <= m; i++)
