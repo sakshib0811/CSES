@@ -8,9 +8,9 @@ public class WeirdAlgorithm {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
+        long n = sc.nextInt();
         sc.close();
-        List<Integer> ans = new ArrayList<>();
+        List<Long> ans = new ArrayList<>();
         ans.add(n);
         while (n > 1) {
             if (n % 2 == 0) {
@@ -21,7 +21,7 @@ public class WeirdAlgorithm {
                 ans.add(n);
             }
         }
-        for (int num : ans) {
+        for (long num : ans) {
             System.out.print(num + " ");
         }
     }
