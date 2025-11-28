@@ -18,6 +18,7 @@ public class DistinctNumber {
             mpp.put(arr[i], mpp.getOrDefault(arr[i], 0) + 1);
         }
         bf.close();
+
         System.out.println(mpp.size());
     }
 }
